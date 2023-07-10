@@ -1,11 +1,15 @@
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
+import CardContainer from "./components/CardContainer";
 
 
 
 function App() {
   return (
-    <div>
-     
-    </div>
+  <Container className="text-center mt-5">
+    <Header/>
+    <CardContainer/>
+  </Container>
   );
 }
 
