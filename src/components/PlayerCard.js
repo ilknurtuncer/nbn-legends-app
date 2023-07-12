@@ -3,8 +3,8 @@ import { Card } from "react-bootstrap";
 
 const PlayerCard = ({ name, img, statistics }) => {
     //? 👆 const {name, image, statistics} = props
-    // const [showImage, setShowImage] = useState(true);
-    // const handleClick = () => setShowImage(!showImage);
+    const [showImage, setShowImage] = useState(true);
+    const handleClick = () => setShowImage(!showImage);
   return (
     <Card
     //? onClick={() => setShowImage(!showImage)}
